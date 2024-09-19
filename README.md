@@ -1,14 +1,10 @@
-### Project Name: **RepoInsight: Comprehensive File System and Dependency Analysis Tool**
-
----
-
-## **README Documentation for RepoInsight**
+### **RepoInsight: Comprehensive File System and Dependency Analysis Tool**
 
 ---
 
 # **RepoInsight**
 
-### _A Tool for Analyzing and Visualizing Repository File Structures and Relationships_
+### A Tool for Analyzing and Visualizing Repository File Structures and Relationships
 
 **RepoInsight** is a powerful tool designed to analyze the file structure of GitHub repositories and visualize the relationships between files. It helps developers gain insights into the file system and its dependencies, providing a comprehensive overview of how various components interconnect. RepoInsight focuses on explaining the repository's architecture, file roles, and relationships rather than just giving a code-level explanation.
 
@@ -64,20 +60,20 @@ Follow these instructions to set up and run **RepoInsight** on your local machin
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/repoinsight.git
+   git clone https://github.com/sujin-sreekumaran/RepoInsight.git
    cd repoinsight
    ```
 
 2. **Install Frontend Dependencies (Next.js)**
 
    ```bash
-   cd frontend
+   cd client
    npm install  # or yarn install
    ```
 
 3. **Install Backend Dependencies (Flask)**
    ```bash
-   cd ../backend
+   cd ../server
    pip install -r requirements.txt
    ```
 
@@ -86,7 +82,7 @@ Follow these instructions to set up and run **RepoInsight** on your local machin
 1. **Start the Flask Backend**
 
    ```bash
-   cd backend
+   cd server
    flask run
    ```
 
@@ -95,7 +91,7 @@ Follow these instructions to set up and run **RepoInsight** on your local machin
 2. **Start the Next.js Frontend**
 
    ```bash
-   cd frontend
+   cd client
    npm run dev  # or yarn dev
    ```
 
@@ -163,7 +159,7 @@ Feel free to raise issues or feature requests, and we will review them as soon a
 
 ## **License**
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the (LICENSE) file for details.
 
 ---
 
